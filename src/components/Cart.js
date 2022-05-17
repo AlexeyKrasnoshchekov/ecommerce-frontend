@@ -56,7 +56,7 @@ class Cart extends Component {
                   </CartToBusket>
                 )}
                 <Link
-                  to={`/${this.props.product.category}/${this.props.product.id}`}
+                  to={`/ecommerce-frontend/${this.props.product.category}/${this.props.product.id}`}
                 >
                   <CartOutOfStock
                     style={{
@@ -76,13 +76,13 @@ class Cart extends Component {
         })}
         <Link
           className="link"
-          to={`/${this.props.product.category}/${this.props.product.id}`}
+          to={`/ecommerce-frontend/${this.props.product.category}/${this.props.product.id}`}
         >
           <CartProductBrand>{this.props.product.brand}</CartProductBrand>
         </Link>
         <Link
           className="link"
-          to={`/${this.props.product.category}/${this.props.product.id}`}
+          to={`/ecommerce-frontend/${this.props.product.category}/${this.props.product.id}`}
         >
           <CartProductName>{this.props.product.name}</CartProductName>
         </Link>

@@ -53,7 +53,7 @@ class Header extends Component {
           {this.props.categoryNames.map((cat) => {
             let active = cat === this.props.category;
             return (
-              <NavLink className="navLink" key={cat} to={`/${cat}`}>
+              <NavLink className="navLink" key={cat} to={`/ecommerce-frontend/${cat}`}>
                 <CategoryItem
                   onClick={() => this.handleCategoryClick(cat)}
                   style={{

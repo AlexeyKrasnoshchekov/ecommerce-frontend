@@ -60,7 +60,7 @@ class Minicart extends Component {
             <span>{`${this.props.currency.symbol}${this.state.total}`}</span>
           </div>
           <div className="minicartButtonsContainer">
-            <Link className="navLink" to={`/cart`}>
+            <Link className="navLink" to={`/ecommerce-frontend/cart`}>
               <ViewBagButton onClick={this.props.toggleModalMinicart}>
                 View bag
               </ViewBagButton>
