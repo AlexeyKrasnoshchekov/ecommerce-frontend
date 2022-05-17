@@ -1,6 +1,5 @@
 {
   "homepage": "https://alexeykrasnoshchekov.github.io/ecommerce-frontend",
-  "name": "ecommerce-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
