@@ -29,23 +29,23 @@ class App extends Component {
     return (
       <Router>
         <Switch>
-          <Route exact path="/cart">
+          <Route exact path="/ecommerce-frontend/cart">
             <Container>
               <Busket />
             </Container>
           </Route>
-          <Route path="/:category/:id">
+          <Route path="/ecommerce-frontend/:category/:id">
             <Container>
               <ProductPage />
             </Container>
           </Route>
-          <Route path="/:category">
+          <Route path="/ecommerce-frontend/:category">
             <Container>
               <ProductListing />
             </Container>
           </Route>
 
-          <Route path="/">
+          <Route path="/ecommerce-frontend">
             <Container>
               <ProductListing />
             </Container>
